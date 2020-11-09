@@ -15,11 +15,8 @@ class Solution:
         return max(left, right)
         
     def get_diff(self, root: TreeNode, max_num: int, min_num: int) -> int:
-        if root.val > max_num:
-            max_num = root.val
-        
-        if root.val < min_num:
-            min_num = root.val
+        max_num = max(max_num, root.val)
+        min_num = min(min_num, root.val)
 
         if root.left or root.right:
             left, right = 0, 0
