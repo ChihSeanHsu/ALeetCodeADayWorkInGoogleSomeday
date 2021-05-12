@@ -10,7 +10,7 @@ Implement the NumMatrix class:
  
 
 Example 1:
-![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/)
+![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021/05/Range%20Sum%20Query%202D%20-%20Immutable/sum-grid.jpg)
 
 Input
 ["NumMatrix", "sumRegion", "sumRegion", "sumRegion"]
