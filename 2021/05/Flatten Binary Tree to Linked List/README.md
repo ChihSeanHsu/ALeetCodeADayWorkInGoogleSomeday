@@ -4,6 +4,8 @@ Given the root of a binary tree, flatten the tree into a "linked list":
     The "linked list" should be in the same order as a pre-order traversal of the binary tree.
 
  
+![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021/05/Flatten%20Binary%20Tree%20to%20Linked%20List/flaten.jpg)
+
 
 Example 1:
 
