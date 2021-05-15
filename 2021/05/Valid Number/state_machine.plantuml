@@ -1,0 +1,40 @@
+@startuml
+
+title Valid Number State
+[*] --> POSI: eq "+" || eq "-"
+POSI: state == 1
+
+[*] --> DIGIT: isdigit()
+DIGIT: state == 2
+
+[*] --> DOT : eq "."
+DOT: state == 3
+
+POSI --> DOT: eq "."
+
+POSI --> DIGIT: isdigit()
+
+DIGIT --> DOT: eq "."
+
+DOT --> DIGIT_AFTER_DOT: isdigit()
+DIGIT_AFTER_DOT: state == 4
+
+
+DIGIT --> EXP: eq "e" || eq "E"
+EXP: state == 5
+
+DOT --> EXP: eq "e" || eq "E"
+
+DIGIT_AFTER_DOT --> EXP: eq "e" || eq "E"
+
+
+EXP --> POSI_AFTER_EXP: eq "+" || eq "-"
+POSI_AFTER_EXP: state == 6
+
+POSI_AFTER_EXP --> DIGIT_AFTER_EXP: isdigit()
+DIGIT_AFTER_EXP: state == 7
+
+EXP --> DIGIT_AFTER_EXP: isdigit()
+
+
+@enduml
