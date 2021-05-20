@@ -6,6 +6,8 @@ The maze is represented by a binary 2D array. 1 means the wall and 0 means the e
 
 Example 1
 
+![img](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021/05/Maze/maze_1_example_1.png)
+
 Input 1: a maze represented by a 2D array
 
 0 0 1 0 0
@@ -22,9 +24,11 @@ Input 1: a maze represented by a 2D array
 Input 2: start coordinate (rowStart, colStart) = (0, 4)
 Input 3: destination coordinate (rowDest, colDest) = (4, 4)
 
+
 Output: true
 Explanation: One possible way is : left -> down -> left -> down -> right -> down -> right.
 
+![img](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021/05/Maze/maze_1_example_2.png)
 
 Example 2
 
