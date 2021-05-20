@@ -1,6 +1,6 @@
 Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
- 
+![img](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021/05/Binary%20Tree%20Level%20Order%20Traversal/tree1.jpg)
 
 Example 1:
 
