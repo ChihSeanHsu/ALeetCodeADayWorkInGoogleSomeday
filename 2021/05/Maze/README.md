@@ -8,11 +8,11 @@ Example 1
 
 Input 1: a maze represented by a 2D array
 
-0 0 1 0 0
-0 0 0 0 0
-0 0 0 1 0
-1 1 0 1 1
-0 0 0 0 0
+0 0 1 0 0\n
+0 0 0 0 0\n
+0 0 0 1 0\n
+1 1 0 1 1\n
+0 0 0 0 0\n
 
 Input 2: start coordinate (rowStart, colStart) = (0, 4)
 Input 3: destination coordinate (rowDest, colDest) = (4, 4)
@@ -25,11 +25,11 @@ Example 2
 
 Input 1: a maze represented by a 2D array
 
-0 0 1 0 0
-0 0 0 0 0
-0 0 0 1 0
-1 1 0 1 1
-0 0 0 0 0
+0 0 1 0 0\n
+0 0 0 0 0\n
+0 0 0 1 0\n
+1 1 0 1 1\n
+0 0 0 0 0\n
 
 Input 2: start coordinate (rowStart, colStart) = (0, 4)
 Input 3: destination coordinate (rowDest, colDest) = (3, 2)
