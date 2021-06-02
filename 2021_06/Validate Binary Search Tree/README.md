@@ -10,10 +10,14 @@ A valid BST is defined as follows:
 
 Example 1:
 
+![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021_06/Validate%20Binary%20Search%20Tree/tree1.jpg)
+
 Input: root = [2,1,3]
 Output: true
 
 Example 2:
+
+![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021_06/Validate%20Binary%20Search%20Tree/tree2.jpg)
 
 Input: root = [5,1,4,null,null,3,6]
 Output: false
