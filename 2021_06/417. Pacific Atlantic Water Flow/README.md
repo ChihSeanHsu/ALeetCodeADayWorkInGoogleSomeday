@@ -4,7 +4,7 @@ Water can only flow in four directions: up, down, left, and right. Water flows f
 
 Return a list of grid coordinates where water can flow to both the Pacific and Atlantic oceans.
 
- 
+![image](https://github.com/ChihSeanHsu/ALeetCodeADayWorkInGoogleSomeday/blob/master/2021_06/417.%20Pacific%20Atlantic%20Water%20Flow/ocean-grid.jpg)
 
 Example 1:
 
