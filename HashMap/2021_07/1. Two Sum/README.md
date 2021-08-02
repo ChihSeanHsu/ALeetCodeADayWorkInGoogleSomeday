@@ -34,8 +34,13 @@ Constraints:
  
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
+   
+   
    Hide Hint #1  
 A really brute force way would be to search for all possible pairs of numbers but that would be too slow. Again, it's best to try out brute force solutions for just for completeness. It is from these brute force solutions that you can come up with optimizations.
+   
+   
+   
    Hide Hint #2  
 So, if we fix one of the numbers, say
 
@@ -50,5 +55,7 @@ which is
 value - x
 
 where value is the input parameter. Can we change our array somehow so that this search becomes faster?
+   
+   
    Hide Hint #3  
 The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?
