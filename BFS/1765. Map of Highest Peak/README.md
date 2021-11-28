@@ -17,7 +17,7 @@ Return an integer matrix height of size m x n where height[i][j] is cell (i, j)'
 
 Example 1:
 
-
+![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-82045-am.png)
 
 Input: isWater = [[0,1],[0,0]]
 Output: [[1,0],[2,1]]
