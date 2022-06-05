@@ -6,6 +6,7 @@ Important question:
 - OOD:
   - LinkedList/1429. First Unique Number
   - LinkedList/146. LRU Cache
+  - Heap/295. Find Median from Data Stream
 
 
 
