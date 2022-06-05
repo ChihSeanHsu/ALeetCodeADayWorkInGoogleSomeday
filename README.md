@@ -1,6 +1,10 @@
 Important question:
-Stack/394. Decode String
-Heap/407. Trapping Rain Water II
+
+  Stack/394. Decode String
+  Heap/407. Trapping Rain Water II
+  OOD/
+    LinkedList/1429. First Unique Number
+    LinkedList/146. LRU Cache
 
 
 
